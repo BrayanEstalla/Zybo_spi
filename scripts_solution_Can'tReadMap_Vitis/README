@@ -1,0 +1,14 @@
+INSTALLATION:/USE:
+
+METHOD 2:
+  a. Creating a separate directory containing patched files (ex. C:\MYVIVADO\xsct-patch).
+  b. Extract the contents of the ".zip" archive to the desired patch directory location.
+  c. Set the MYVIVADO environment variable to point to the this patch directory
+     i.e. set XILINX_PATH=C:\MYVIVADO\xsct-patch
+  d. Run Vitis software tools from the original install location.
+
+METHOD 1:
+  a. Navigate to the the $XILINX_VITIS directory (Linux) or
+     C:\Xilinx\Vitis\<vitis_version> (Windows)
+  b. Extract the contents of the ".zip" archive such that the files from the ".zip" archive overwrite the files in Vitis install.
+  c. Run Vitis software tools from the original install location.

@@ -1,0 +1,18 @@
+;;  Copyright ARM Ltd 2005-2008. All rights reserved.
+;;  Scatter file for Cortex-A9 cached_dhry example
+
+
+DDR_LOAD 0x00000 0x10000000
+{
+    DDR_TEXT 0x0000 0x8000000
+    {
+        asm_vectors.o (.vectors, +First)
+        * (+RO,+RW,+ZI)
+    }
+    ;VectorTable   +0 ALIGN 0x08 EMPTY 0x38 {}
+    ARM_LIB_HEAP  +0 ALIGN 0x10 EMPTY 0x1000 {}
+    ARM_LIB_STACK +0 ALIGN 0x10 EMPTY 0x1000 {}
+    IRQ_STACK     +0 ALIGN 0x10 EMPTY 0x1000 {}
+    SPV_STACK     +0 ALIGN 0x10 EMPTY 0x1000 {}
+    ABORT_STACK   +0 ALIGN 0x10 EMPTY 0x1000 {}
+}

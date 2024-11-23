@@ -1,0 +1,245 @@
+app
+app build
+app create
+app config
+app list
+app remove
+app report
+backtrace
+bt
+bpadd
+bpdisable
+bpenable
+bplist
+bpremove
+bpstatus
+bsp
+bsp config
+bsp getdrivers
+bsp getlibs
+bsp getos
+bsp listparams
+bsp removelib
+bsp setdriver
+bsp setlib
+bsp setosversion
+changebsp
+closebsp
+closehw
+con
+configapp
+configbsp
+configparams
+connect
+createapp
+createbsp
+createhw
+createlib
+deleteprojects
+device-tree
+dis
+disconnect
+domain
+domain active
+domain create
+domain config
+domain list
+domain remove
+domain report
+dow
+fpga
+gdbremote connect
+gdbremote disconnect
+getaddrmap
+getdrivers
+getlibs
+getos
+getperipherals
+getprojects
+getws
+hsi add_library
+hsi close_hw_design
+hsi close_sw_design
+hsi create_comp_param
+hsi create_dt_node
+hsi create_dt_tree
+hsi create_node
+hsi create_property
+hsi create_sw_design
+hsi current_dt_tree
+hsi current_hw_design
+hsi current_sw_design
+hsi delete_objs
+hsi generate_app
+hsi generate_bsp
+hsi generate_target
+hsi get_arrays
+hsi get_cells
+hsi get_comp_params
+hsi get_drivers
+hsi get_dt_nodes
+hsi get_dt_trees
+hsi get_fields
+hsi get_hw_designs
+hsi get_hw_files
+hsi get_intf_nets
+hsi get_intf_pins
+hsi get_intf_ports
+hsi get_libs
+hsi get_mem_ranges
+hsi get_msg_config
+hsi get_nets
+hsi get_nodes
+hsi get_os
+hsi get_param
+hsi get_pins
+hsi get_ports
+hsi get_property
+hsi get_registers
+hsi get_sw_cores
+hsi get_sw_designs
+hsi get_sw_interfaces
+hsi get_sw_processor
+hsi list_features
+hsi list_param
+hsi list_property
+hsi list_property_value
+hsi load_features
+hsi open_hw_design
+hsi open_sw_design
+hsi register_proc
+hsi report_environment
+hsi report_param
+hsi report_property
+hsi reset_msg_config
+hsi reset_msg_count
+hsi reset_param
+hsi reset_property
+hsi set_msg_config
+hsi set_param
+hsi set_property
+hsi set_repo_path
+hsi unregister_proc
+hsi write_ps_configuration
+importprojects
+importsources
+init_ps
+jtag claim
+jtag device_properties
+jtag disclaim
+jtag frequency
+jtag lock
+jtag sequence
+jtag servers
+jtag skew
+jtag targets
+jtag unlock
+jtagterminal
+kernel
+library
+linker
+linker config
+linker list-mem
+linker report
+loadhw
+locals
+mask_poll
+mask_write
+mb_drrd
+mb_drwr
+mbprofile
+mbtrace
+mdm_drrd
+mdm_drwr
+memmap
+mrd
+mwr
+nxt
+nxti
+openbsp
+openhw
+osa
+petalinux-install-path
+platform
+platform active
+platform create
+platform config
+platform generate
+platform list
+platform read
+platform remove
+platform report
+platform write
+print
+profile
+projects
+readjtaguart
+regenbsp
+removelib
+repo
+rootfs
+rrd
+rst
+rwr
+setdriver
+setlib
+setosversion
+setws
+state
+stop
+stp
+stpi
+stpout
+svf con
+svf config
+svf delay
+svf dow
+svf generate
+svf mwr
+svf stop
+sysconfig
+sysconfig active
+sysconfig create
+sysconfig config
+sysconfig list
+sysconfig remove
+sysconfig report
+sysproj
+sysproj build
+sysproj list
+sysproj remove
+sysproj report
+targets
+tfile close
+tfile copy
+tfile fsetstat
+tfile fstat
+tfile ls
+tfile lstat
+tfile mkdir
+tfile open
+tfile opendir
+tfile read
+tfile readdir
+tfile readlink
+tfile realpath
+tfile remove
+tfile rename
+tfile rmdir
+tfile roots
+tfile setstat
+tfile stat
+tfile symlink
+tfile user
+tfile write
+toolchain
+u-boot
+unloadhw
+updatehw
+updatemss
+verify
+version
+xsdbserver disconnect
+xsdbserver start
+xsdbserver stop
+xsdbserver version
